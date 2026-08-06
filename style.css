@@ -63,3 +63,16 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+
+/* Responsive design for small screens */
+@media (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: column; /* Stack links vertically */
+    align-items: center;    /* Center them */
+  }
+
+  nav a {
+    margin: 0.5rem 0;       /* Space between stacked links */
+  }
+}
