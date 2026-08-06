@@ -82,7 +82,7 @@ footer {
     margin: 0.5rem 0;       /* Space between stacked links */
   }
 }
-/* Responsive item cards layout */
+/* Responsive item cards layout for large screens */
 @media (min-width: 768px) {
   section {
     display: grid;
