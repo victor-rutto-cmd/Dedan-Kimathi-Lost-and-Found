@@ -82,3 +82,15 @@ footer {
     margin: 0.5rem 0;       /* Space between stacked links */
   }
 }
+/* Responsive item cards layout */
+@media (min-width: 768px) {
+  section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two cards per row */
+    gap: 1rem;                             /* Space between cards */
+  }
+
+  section div {
+    margin-bottom: 0; /* Remove bottom margin since grid handles spacing */
+  }
+}
